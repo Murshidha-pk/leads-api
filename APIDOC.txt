@@ -1,0 +1,29 @@
+schema:Leads
+fields:id,source,name,contact,course,status,remarks
+
+1)API for adding a new Lead
+
+    url:locahost:8000/leads/
+
+    method:post
+
+    body:{source:,name:,contact:,course:,status:,remarks:}
+
+
+
+
+2)API for listng all leads
+
+
+
+    url:locahost:8000/leads/
+
+    method:get
+
+    body:Nill
+
+
+
+
+
+
